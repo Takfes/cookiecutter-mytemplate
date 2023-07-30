@@ -1,3 +1,7 @@
+### Cookiecutter Templates
+
+- see [link](https://www.cookiecutter.io/templates)
+
 ### Create virtual environment w/ conda
 
 ```{python}

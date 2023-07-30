@@ -1,0 +1,30 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Lucida Console",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "python.pythonPath": "/path/to/python/interpreter",
+    "python.envFile": "${workspaceFolder}/.env",    
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "notebook.output.textLineLimit": 100,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "jupyter.notebookFileRoot" : "${workspaceFolder}",
+    "python.terminal.executeInFileDir": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "error"
+    },
+    "python.terminal.launchArgs": [
+        "-c",
+        "import os; os.chdir('/path/to/project/root')"
+    ]
+    // "python.autoComplete.extraPaths": [
+        //     "${workspaceFolder}"
+        // ],
+}
